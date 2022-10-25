@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent { position: relative; }
+.div1 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+.small-div1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div1{ line-height: 35px; }
+@keyframes change {  0% { left: 0px;} 100% {left: 940px;} }
+
+.div2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: auto;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+.small-div2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div2{ line-height: 35px; }
+@keyframes change2 {
+      0% { right: 0px;} 100% {right: 940px;width: 75px } }
+.div3 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 150px;
+}
+.small-div3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div3{ line-height: 35px; }
+@keyframes change {  0% { left: 0px;} 100% {left: 940px;} }
+.div4 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(50, 4, 94);
+    margin-left: auto;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 0px;
+    top: 225px;
+}
+.small-div4 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div4{ line-height: 35px; }
+@keyframes change2 {  0% { right: 0px;} 100% {right: 940px;} }
+
+.div5 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: orangered;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 300px;
+}
+.small-div5 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div5{ line-height: 35px; }
+@keyframes change {  0% { left: 0px;} 100% {left: 940px;} }
+.div6 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(3, 59, 3);
+    margin-left: auto;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 0px;
+    top: 375px;
+}
+.small-div6 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div6{ line-height: 35px; }
+@keyframes change2 {  0% { right: 0px;} 100% {right: 940px;} }
+.div7 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(150, 7, 7);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 450px;
+}
+.small-div7 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div7{ line-height: 35px; }
+@keyframes change {  0% { left: 0px;} 100% {left: 940px;} }
+.div8 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: auto;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 0px;
+    top: 525px;
+}
+.small-div8 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin:20px auto;
+    text-align: center;
+}
+.title-div8{ line-height: 35px; }
+@keyframes change2 {  0% { right: 0px;} 100% {right: 940px;} }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
